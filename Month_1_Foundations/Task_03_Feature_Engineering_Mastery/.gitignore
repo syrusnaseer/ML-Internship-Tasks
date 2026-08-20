@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated artifacts
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large/local experiment artifacts
+models/
+outputs/
+# Local datasets
+*.csv
